@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Boluwatife
 
-🎓 I just finished my SSCE and I’m on a journey to become a **Software Engineer & Ethical Hacker**.  
+🎓 I just finished my SSCE in United High School Ikenne and I’m on a journey to become a **Software Engineer & Ethical Hacker**.  
 💻 This is my first GitHub portfolio, built entirely on my smartphone!  
 
 ---
@@ -14,9 +14,9 @@
 
 ---
 
-## 📬 Contact Me
-- 📧 Email: yourname@example.com  
-- 🐙 GitHub: [github.com/your-username](https://github.com/your-username)  
+## 📬 Contact Me:07030568476
+- 📧 Email: sojis4647@gmail.com
+- 🐙 GitHub: [github.com/Boluwatife dev](https://github.com/boluwatife dev)  
 
 ---
 
