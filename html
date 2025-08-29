@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boluwatife's Portfolio</title>
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 0;
+      background: #0d1117;
+      color: #e6edf3;
+      line-height: 1.6;
+    }
+    header {
+      background: #161b22;
+      padding: 40px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #58a6ff;
+      text-shadow: 0 0 10px #58a6ff, 0 0 20px #58a6ff;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 10px 0;
+      font-style: italic;
+      font-size: 1.2rem;
+      color: #8b949e;
+    }
+    nav a {
+      color: #e6edf3;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #58a6ff;
+      text-shadow: 0 0 5px #58a6ff;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .card {
+      background: #161b22;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+    .profile-pic {
+      display: block;
+      margin: 0 auto 15px;
+      border-radius: 50%;
+      width: 150px;
+      border: 3px solid #58a6ff;
+      box-shadow: 0 0 15px #58a6ff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #161b22;
+      color: #8b949e;
+      margin-top: 20px;
+    }
+    a {
+      color: #58a6ff;
+    }
+    /* Typing effect */
+    .typing {
+      color: #58a6ff;
+      font-size: 1.3rem;
+      border-right: 3px solid #58a6ff;
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: typing 4s steps(40, end) forwards, blink .7s infinite;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="profile.jpg" alt="Boluwatife" class="profile-pic">
+    <h1>Hi, I'm Boluwatife 👨🏽‍💻</h1>
+    <p class="typing">Aspiring Software Engineer & Ethical Hacker</p>
+    <br><br>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#goals">Goals</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I'm 17, just graduated secondary school, and I'm starting my journey into software engineering. I want to build amazing projects, learn ethical hacking, and become successful before 24.</p>
+    </div>
+  </section>
+
+  <section id="goals">
+    <div class="card">
+      <h2>My Goals</h2>
+      <ul>
+        <li>Learn HTML, CSS, and JavaScript</li>
+        <li>Build real projects and websites</li>
+        <li>Master Python & Cybersecurity basics</li>
+        <li>Work as a software engineer in the UK</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/boluwatifedev" target="_blank">github.com/boluwatifedev</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Boluwatife | My Hacker Portfolio 🚀</p>
+  </footer>
+</body>
+    </html>
